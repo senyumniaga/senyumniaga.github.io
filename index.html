@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Senyum Niaga</title>
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Helvetica&display=swap');
-
         body {
             font-family: 'Helvetica', sans-serif;
             margin: 0;
@@ -14,36 +15,26 @@
             background-color: #f4f4f4;
             color: #333;
         }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 0;
-            text-align: center;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            margin: 20px 0;
-        }
-        nav button {
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            margin: 0 10px;
-            cursor: pointer;
-        }
         .container {
             max-width: 800px;
-            margin: 0 auto;
+            margin: 20px auto;
             padding: 20px;
             background-color: white;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
+        header {
+            background-color: #3F51B5;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .mdl-button {
+            margin: 10px;
+        }
         footer {
             text-align: center;
             padding: 20px;
-            background-color: #4CAF50;
+            background-color: #3F51B5;
             color: white;
         }
     </style>
@@ -53,15 +44,17 @@
         <h1>Senyum Niaga</h1>
         <p id="tagline">Commerce with a Smile</p>
     </header>
-    <nav>
-        <button onclick="switchLanguage('en')">English</button>
-        <button onclick="switchLanguage('id')">Indonesian</button>
+    <nav class="mdl-navigation">
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" onclick="switchLanguage('en')">English</button>
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" onclick="switchLanguage('id')">Indonesian</button>
     </nav>
-    <div class="container">
-        <h2 id="welcome">Welcome to Senyum Niaga</h2>
-        <p id="description">
-            We provide easy and relaxed sustainable solutions for inventory and closing processes for stores and shops. Our mission is to make commerce a joyful and stress-free experience.
-        </p>
+    <div class="container mdl-card mdl-shadow--2dp">
+        <div class="mdl-card__supporting-text">
+            <h2 class="mdl-card__title-text" id="welcome">Welcome to Senyum Niaga</h2>
+            <p id="description">
+                We provide easy and relaxed sustainable solutions for inventory and closing processes for stores and shops. Our mission is to make commerce a joyful and stress-free experience.
+            </p>
+        </div>
     </div>
     <footer>
         <p>&copy; 2024 Senyum Niaga. All rights reserved.</p>
