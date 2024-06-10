@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senyum Niaga</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Helvetica&display=swap');
+
+        body {
+            font-family: 'Helvetica', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        nav button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            cursor: pointer;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Senyum Niaga</h1>
+        <p id="tagline">Commerce with a Smile</p>
+    </header>
+    <nav>
+        <button onclick="switchLanguage('en')">English</button>
+        <button onclick="switchLanguage('id')">Indonesian</button>
+    </nav>
+    <div class="container">
+        <h2 id="welcome">Welcome to Senyum Niaga</h2>
+        <p id="description">
+            We provide easy and relaxed sustainable solutions for inventory and closing processes for stores and shops. Our mission is to make commerce a joyful and stress-free experience.
+        </p>
+    </div>
+    <footer>
+        <p>&copy; 2024 Senyum Niaga. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const translations = {
+            en: {
+                tagline: "Commerce with a Smile",
+                welcome: "Welcome to Senyum Niaga",
+                description: "We provide easy and relaxed sustainable solutions for inventory and closing processes for stores and shops. Our mission is to make commerce a joyful and stress-free experience."
+            },
+            id: {
+                tagline: "Perdagangan dengan Senyuman",
+                welcome: "Selamat Datang di Senyum Niaga",
+                description: "Kami menyediakan solusi berkelanjutan yang mudah dan santai untuk proses inventaris dan penutupan untuk toko dan gerai. Misi kami adalah membuat perdagangan menjadi pengalaman yang menyenangkan dan bebas stres."
+            }
+        };
+
+        function switchLanguage(lang) {
+            document.getElementById('tagline').innerText = translations[lang].tagline;
+            document.getElementById('welcome').innerText = translations[lang].welcome;
+            document.getElementById('description').innerText = translations[lang].description;
+        }
+    </script>
+</body>
+</html>
