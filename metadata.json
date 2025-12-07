@@ -1,4 +1,5 @@
 {
-  "name": "BotForge - Custom Business AI",
-  "description": "High-conversion landing page for a custom AI chatbot business, featuring a live interactive Gemini-powered demo widget."
+  "name": "Talora - Custom Business AI",
+  "description": "High-conversion landing page for a custom AI chatbot business, featuring a live interactive demo widget.",
+  "requestFramePermissions": []
 }
