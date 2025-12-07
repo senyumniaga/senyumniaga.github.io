@@ -4,12 +4,12 @@ import react from '@vitejs/plugin-react';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  // 'base' must match your repository name if not using a custom domain. 
-  // './' is a safe default for hash routing on GitHub Pages.
-  base: './',
+  // Use '/' for User/Org sites (https://username.github.io/)
+  // Use '/repo-name/' for Project sites
+  base: '/',
   define: {
-    // This prevents "process is not defined" errors in the browser
-    'process.env': process.env
+    // Safely replace process.env.API_KEY with the string value or empty string.
+    'process.env.API_KEY': JSON.stringify(process.env.API_KEY || '')
   },
   build: {
     outDir: 'dist',
