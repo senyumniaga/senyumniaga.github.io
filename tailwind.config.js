@@ -43,8 +43,8 @@ export default {
       },
       keyframes: {
         glow: {
-          '0%': { boxShadow: '0 0 5px #d946ef, 0 0 10px #d946ef' },
-          '100%': { boxShadow: '0 0 20px #8b5cf6, 0 0 30px #8b5cf6' },
+          '0%': { filter: 'drop-shadow(0 0 2px rgba(217, 70, 239, 0.6)) drop-shadow(0 0 8px rgba(217, 70, 239, 0.4))' },
+          '100%': { filter: 'drop-shadow(0 0 4px rgba(6, 182, 212, 0.6)) drop-shadow(0 0 12px rgba(6, 182, 212, 0.4))' },
         },
         float: {
           '0%, 100%': { transform: 'translateY(0)' },
