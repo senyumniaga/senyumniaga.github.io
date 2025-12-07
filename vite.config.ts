@@ -5,10 +5,9 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   // Use '/' for User/Org sites (https://username.github.io/)
-  // Use '/repo-name/' for Project sites
   base: '/',
   define: {
-    // Safely replace process.env.API_KEY with the string value or empty string.
+    // Safely replace process.env.API_KEY with the string value during build
     'process.env.API_KEY': JSON.stringify(process.env.API_KEY || '')
   },
   build: {

@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { sendMessageToGemini } from '../services/geminiService';
-import { MessageSquare, X, Send, Bot, Minimize2, Sparkles } from 'lucide-react';
+import { MessageSquare, Send, Bot, Minimize2, Sparkles } from 'lucide-react';
 
 interface Message {
   role: 'user' | 'bot';
