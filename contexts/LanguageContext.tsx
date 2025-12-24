@@ -49,6 +49,51 @@ interface Translations {
     fp_s2_desc: string;
     fp_s3_title: string;
     fp_s3_desc: string;
+    // Proof of Value Slider Keys
+    pov_badge: string;
+    pov_title: string;
+    pov_desc: string;
+    pov_1_metric: string;
+    pov_1_title: string;
+    pov_1_desc: string;
+    pov_1_source: string;
+    pov_2_metric: string;
+    pov_2_title: string;
+    pov_2_desc: string;
+    pov_2_source: string;
+    pov_3_metric: string;
+    pov_3_title: string;
+    pov_3_desc: string;
+    pov_3_source: string;
+    pov_4_metric: string;
+    pov_4_title: string;
+    pov_4_desc: string;
+    pov_4_source: string;
+    pov_5_metric: string;
+    pov_5_title: string;
+    pov_5_desc: string;
+    pov_5_source: string;
+    pov_6_metric: string;
+    pov_6_title: string;
+    pov_6_desc: string;
+    pov_6_source: string;
+    pov_7_metric: string;
+    pov_7_title: string;
+    pov_7_desc: string;
+    pov_7_source: string;
+    pov_8_metric: string;
+    pov_8_title: string;
+    pov_8_desc: string;
+    pov_8_source: string;
+    pov_9_metric: string;
+    pov_9_title: string;
+    pov_9_desc: string;
+    pov_9_source: string;
+    pov_10_metric: string;
+    pov_10_title: string;
+    pov_10_desc: string;
+    pov_10_source: string;
+    pov_paused: string;
   };
 }
 
@@ -98,6 +143,51 @@ const translations: Translations = {
     fp_s2_desc: 'Formal for banking, playful for e-commerce. Our proprietary style-transfer layer adapts the AI\'s voice to perfectly match your brand guidelines, ensuring consistency across every interaction.',
     fp_s3_title: 'Ironclad Security Guardrails',
     fp_s3_desc: 'Sleep soundly knowing your bot stays on topic. We implement deterministic guardrails that prevent hallucinations, block competitor mentions, and ensure compliance with your business rules.',
+    // Proof of Value Slider
+    pov_badge: 'Data-Backed Results',
+    pov_title: 'Proof of Value',
+    pov_desc: 'Real statistics from industry research showing measurable ROI of AI-powered customer support.',
+    pov_1_metric: '30%',
+    pov_1_title: 'Cost Reduction',
+    pov_1_desc: 'Chatbots reduce customer service costs by automating routine inquiries and reducing the need for large support teams.',
+    pov_1_source: 'IBM / Chatbots Magazine',
+    pov_2_metric: '$3.50',
+    pov_2_title: 'ROI Per $1 Invested',
+    pov_2_desc: 'AI-powered customer service delivers strong financial returns through efficiency gains and improved customer retention.',
+    pov_2_source: 'KPMG',
+    pov_3_metric: '37%',
+    pov_3_title: 'Faster Response Time',
+    pov_3_desc: 'AI chatbots provide instant responses, dramatically cutting wait times and improving the overall support experience.',
+    pov_3_source: 'Gorgias',
+    pov_4_metric: '27%',
+    pov_4_title: 'Higher CSAT Scores',
+    pov_4_desc: 'Faster resolutions, 24/7 availability, and consistent responses contribute to measurably higher customer satisfaction.',
+    pov_4_source: 'Zowie',
+    pov_5_metric: '80%',
+    pov_5_title: 'Automated Inquiries',
+    pov_5_desc: 'The majority of customer questions are repetitive—ideal candidates for AI automation, freeing human agents for complex issues.',
+    pov_5_source: 'IBM / Gartner',
+    pov_6_metric: '13.8%',
+    pov_6_title: 'Agent Productivity Boost',
+    pov_6_desc: 'AI assistance helps human agents work more efficiently with suggested responses and automated ticket routing.',
+    pov_6_source: 'Plivo',
+    pov_7_metric: '44%',
+    pov_7_title: 'Faster Resolution',
+    pov_7_desc: 'Automated handling of common questions and intelligent routing accelerates the entire resolution process.',
+    pov_7_source: 'Plivo',
+    pov_8_metric: '64%',
+    pov_8_title: 'Value 24/7 Availability',
+    pov_8_desc: 'Round-the-clock support meets modern customer expectations for instant assistance regardless of time zone.',
+    pov_8_source: 'Fullview',
+    pov_9_metric: '62%',
+    pov_9_title: 'Prefer Chatbots',
+    pov_9_desc: 'When given the choice between immediate AI assistance and waiting in queue, the majority choose speed.',
+    pov_9_source: 'Tidio',
+    pov_10_metric: '68%',
+    pov_10_title: 'Peak Staffing Savings',
+    pov_10_desc: 'AI chatbots provide elastic capacity that scales instantly during high-demand periods without hiring temporary staff.',
+    pov_10_source: 'Plivo',
+    pov_paused: 'Paused',
   },
   ru: {
     nav_features: 'Функции',
@@ -144,6 +234,51 @@ const translations: Translations = {
     fp_s2_desc: 'Формальный для банков, игривый для e-commerce. Наш движок адаптирует голос ИИ под ваш бренд.',
     fp_s3_title: 'Железная безопасность',
     fp_s3_desc: 'Спите спокойно. Мы внедряем детерминированные ограничения, предотвращающие галлюцинации и упоминание конкурентов.',
+    // Proof of Value Slider (TODO: Translate)
+    pov_badge: 'Data-Backed Results',
+    pov_title: 'Proof of Value',
+    pov_desc: 'Real statistics from industry research showing measurable ROI of AI-powered customer support.',
+    pov_1_metric: '30%',
+    pov_1_title: 'Cost Reduction',
+    pov_1_desc: 'Chatbots reduce customer service costs by automating routine inquiries and reducing the need for large support teams.',
+    pov_1_source: 'IBM / Chatbots Magazine',
+    pov_2_metric: '$3.50',
+    pov_2_title: 'ROI Per $1 Invested',
+    pov_2_desc: 'AI-powered customer service delivers strong financial returns through efficiency gains and improved customer retention.',
+    pov_2_source: 'KPMG',
+    pov_3_metric: '37%',
+    pov_3_title: 'Faster Response Time',
+    pov_3_desc: 'AI chatbots provide instant responses, dramatically cutting wait times and improving the overall support experience.',
+    pov_3_source: 'Gorgias',
+    pov_4_metric: '27%',
+    pov_4_title: 'Higher CSAT Scores',
+    pov_4_desc: 'Faster resolutions, 24/7 availability, and consistent responses contribute to measurably higher customer satisfaction.',
+    pov_4_source: 'Zowie',
+    pov_5_metric: '80%',
+    pov_5_title: 'Automated Inquiries',
+    pov_5_desc: 'The majority of customer questions are repetitive—ideal candidates for AI automation, freeing human agents for complex issues.',
+    pov_5_source: 'IBM / Gartner',
+    pov_6_metric: '13.8%',
+    pov_6_title: 'Agent Productivity Boost',
+    pov_6_desc: 'AI assistance helps human agents work more efficiently with suggested responses and automated ticket routing.',
+    pov_6_source: 'Plivo',
+    pov_7_metric: '44%',
+    pov_7_title: 'Faster Resolution',
+    pov_7_desc: 'Automated handling of common questions and intelligent routing accelerates the entire resolution process.',
+    pov_7_source: 'Plivo',
+    pov_8_metric: '64%',
+    pov_8_title: 'Value 24/7 Availability',
+    pov_8_desc: 'Round-the-clock support meets modern customer expectations for instant assistance regardless of time zone.',
+    pov_8_source: 'Fullview',
+    pov_9_metric: '62%',
+    pov_9_title: 'Prefer Chatbots',
+    pov_9_desc: 'When given the choice between immediate AI assistance and waiting in queue, the majority choose speed.',
+    pov_9_source: 'Tidio',
+    pov_10_metric: '68%',
+    pov_10_title: 'Peak Staffing Savings',
+    pov_10_desc: 'AI chatbots provide elastic capacity that scales instantly during high-demand periods without hiring temporary staff.',
+    pov_10_source: 'Plivo',
+    pov_paused: 'Paused',
   },
   vi: {
     nav_features: 'Tính năng',
@@ -190,6 +325,51 @@ const translations: Translations = {
     fp_s2_desc: 'Trang trọng cho ngân hàng, vui tươi cho thương mại điện tử. AI điều chỉnh giọng điệu để phù hợp hoàn hảo với thương hiệu của bạn.',
     fp_s3_title: 'Hàng rào bảo mật',
     fp_s3_desc: 'Yên tâm tuyệt đối. Chúng tôi thiết lập các rào cản ngăn chặn ảo giác và chặn việc nhắc đến đối thủ cạnh tranh.',
+    // Proof of Value Slider (TODO: Translate)
+    pov_badge: 'Data-Backed Results',
+    pov_title: 'Proof of Value',
+    pov_desc: 'Real statistics from industry research showing measurable ROI of AI-powered customer support.',
+    pov_1_metric: '30%',
+    pov_1_title: 'Cost Reduction',
+    pov_1_desc: 'Chatbots reduce customer service costs by automating routine inquiries and reducing the need for large support teams.',
+    pov_1_source: 'IBM / Chatbots Magazine',
+    pov_2_metric: '$3.50',
+    pov_2_title: 'ROI Per $1 Invested',
+    pov_2_desc: 'AI-powered customer service delivers strong financial returns through efficiency gains and improved customer retention.',
+    pov_2_source: 'KPMG',
+    pov_3_metric: '37%',
+    pov_3_title: 'Faster Response Time',
+    pov_3_desc: 'AI chatbots provide instant responses, dramatically cutting wait times and improving the overall support experience.',
+    pov_3_source: 'Gorgias',
+    pov_4_metric: '27%',
+    pov_4_title: 'Higher CSAT Scores',
+    pov_4_desc: 'Faster resolutions, 24/7 availability, and consistent responses contribute to measurably higher customer satisfaction.',
+    pov_4_source: 'Zowie',
+    pov_5_metric: '80%',
+    pov_5_title: 'Automated Inquiries',
+    pov_5_desc: 'The majority of customer questions are repetitive—ideal candidates for AI automation, freeing human agents for complex issues.',
+    pov_5_source: 'IBM / Gartner',
+    pov_6_metric: '13.8%',
+    pov_6_title: 'Agent Productivity Boost',
+    pov_6_desc: 'AI assistance helps human agents work more efficiently with suggested responses and automated ticket routing.',
+    pov_6_source: 'Plivo',
+    pov_7_metric: '44%',
+    pov_7_title: 'Faster Resolution',
+    pov_7_desc: 'Automated handling of common questions and intelligent routing accelerates the entire resolution process.',
+    pov_7_source: 'Plivo',
+    pov_8_metric: '64%',
+    pov_8_title: 'Value 24/7 Availability',
+    pov_8_desc: 'Round-the-clock support meets modern customer expectations for instant assistance regardless of time zone.',
+    pov_8_source: 'Fullview',
+    pov_9_metric: '62%',
+    pov_9_title: 'Prefer Chatbots',
+    pov_9_desc: 'When given the choice between immediate AI assistance and waiting in queue, the majority choose speed.',
+    pov_9_source: 'Tidio',
+    pov_10_metric: '68%',
+    pov_10_title: 'Peak Staffing Savings',
+    pov_10_desc: 'AI chatbots provide elastic capacity that scales instantly during high-demand periods without hiring temporary staff.',
+    pov_10_source: 'Plivo',
+    pov_paused: 'Paused',
   },
   id: {
     nav_features: 'Fitur',
@@ -236,6 +416,51 @@ const translations: Translations = {
     fp_s2_desc: 'Formal untuk bank, ceria untuk e-commerce. Lapisan transfer gaya kami menyesuaikan suara AI agar sesuai dengan merek Anda.',
     fp_s3_title: 'Keamanan Berlapis',
     fp_s3_desc: 'Tidur nyenyak mengetahui bot Anda aman. Kami menerapkan pagar pembatas deterministik yang mencegah halusinasi dan penyebutan pesaing.',
+    // Proof of Value Slider (TODO: Translate)
+    pov_badge: 'Data-Backed Results',
+    pov_title: 'Proof of Value',
+    pov_desc: 'Real statistics from industry research showing measurable ROI of AI-powered customer support.',
+    pov_1_metric: '30%',
+    pov_1_title: 'Cost Reduction',
+    pov_1_desc: 'Chatbots reduce customer service costs by automating routine inquiries and reducing the need for large support teams.',
+    pov_1_source: 'IBM / Chatbots Magazine',
+    pov_2_metric: '$3.50',
+    pov_2_title: 'ROI Per $1 Invested',
+    pov_2_desc: 'AI-powered customer service delivers strong financial returns through efficiency gains and improved customer retention.',
+    pov_2_source: 'KPMG',
+    pov_3_metric: '37%',
+    pov_3_title: 'Faster Response Time',
+    pov_3_desc: 'AI chatbots provide instant responses, dramatically cutting wait times and improving the overall support experience.',
+    pov_3_source: 'Gorgias',
+    pov_4_metric: '27%',
+    pov_4_title: 'Higher CSAT Scores',
+    pov_4_desc: 'Faster resolutions, 24/7 availability, and consistent responses contribute to measurably higher customer satisfaction.',
+    pov_4_source: 'Zowie',
+    pov_5_metric: '80%',
+    pov_5_title: 'Automated Inquiries',
+    pov_5_desc: 'The majority of customer questions are repetitive—ideal candidates for AI automation, freeing human agents for complex issues.',
+    pov_5_source: 'IBM / Gartner',
+    pov_6_metric: '13.8%',
+    pov_6_title: 'Agent Productivity Boost',
+    pov_6_desc: 'AI assistance helps human agents work more efficiently with suggested responses and automated ticket routing.',
+    pov_6_source: 'Plivo',
+    pov_7_metric: '44%',
+    pov_7_title: 'Faster Resolution',
+    pov_7_desc: 'Automated handling of common questions and intelligent routing accelerates the entire resolution process.',
+    pov_7_source: 'Plivo',
+    pov_8_metric: '64%',
+    pov_8_title: 'Value 24/7 Availability',
+    pov_8_desc: 'Round-the-clock support meets modern customer expectations for instant assistance regardless of time zone.',
+    pov_8_source: 'Fullview',
+    pov_9_metric: '62%',
+    pov_9_title: 'Prefer Chatbots',
+    pov_9_desc: 'When given the choice between immediate AI assistance and waiting in queue, the majority choose speed.',
+    pov_9_source: 'Tidio',
+    pov_10_metric: '68%',
+    pov_10_title: 'Peak Staffing Savings',
+    pov_10_desc: 'AI chatbots provide elastic capacity that scales instantly during high-demand periods without hiring temporary staff.',
+    pov_10_source: 'Plivo',
+    pov_paused: 'Paused',
   }
 };
 

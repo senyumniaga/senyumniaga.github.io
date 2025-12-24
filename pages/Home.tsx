@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useLanguage } from '../contexts/LanguageContext';
+import { FuturisticSlider } from '../components/FuturisticSlider';
 import { 
   Bot, 
   Zap, 
@@ -57,51 +58,8 @@ export const Home: React.FC = () => {
             </Link>
           </div>
 
-          {/* Hero Visual / Dashboard Preview */}
-          <div className="mt-24 relative mx-auto max-w-5xl">
-            <div className="rounded-xl bg-gradient-to-b from-white/10 to-transparent p-px lg:rounded-2xl backdrop-blur-sm">
-              <div className="rounded-lg bg-dark-bg/80 shadow-2xl overflow-hidden border border-white/5 relative">
-                 {/* Reflection effect */}
-                 <div className="absolute top-0 right-0 w-full h-full bg-gradient-to-br from-white/5 to-transparent pointer-events-none"></div>
-
-                 {/* Mock UI */}
-                 <div className="flex items-center gap-2 border-b border-white/5 px-4 py-3 bg-white/5">
-                    <div className="flex gap-1.5">
-                      <div className="w-3 h-3 rounded-full bg-red-500/20 border border-red-500/50"></div>
-                      <div className="w-3 h-3 rounded-full bg-yellow-500/20 border border-yellow-500/50"></div>
-                      <div className="w-3 h-3 rounded-full bg-green-500/20 border border-green-500/50"></div>
-                    </div>
-                    <div className="mx-auto text-xs text-slate-500 font-mono tracking-widest">DASHBOARD.BOTFORGE.AI</div>
-                 </div>
-                 <div className="grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-white/5">
-                    {/* Panel 1 */}
-                    <div className="p-8 flex flex-col items-center text-center group hover:bg-white/5 transition-colors">
-                      <div className="w-12 h-12 bg-neon-cyan/10 rounded-lg flex items-center justify-center mb-4 text-neon-cyan shadow-[0_0_15px_rgba(6,182,212,0.2)] group-hover:scale-110 transition-transform">
-                        <Zap className="w-6 h-6" />
-                      </div>
-                      <h3 className="text-lg font-bold text-slate-200">{t('stats_reply')}</h3>
-                      <p className="text-sm text-slate-400 mt-2">{t('stats_reply_desc')}</p>
-                    </div>
-                    {/* Panel 2 */}
-                    <div className="p-8 flex flex-col items-center text-center group hover:bg-white/5 transition-colors">
-                      <div className="w-12 h-12 bg-neon-fuchsia/10 rounded-lg flex items-center justify-center mb-4 text-neon-fuchsia shadow-[0_0_15px_rgba(217,70,239,0.2)] group-hover:scale-110 transition-transform">
-                        <BarChart3 className="w-6 h-6" />
-                      </div>
-                      <h3 className="text-lg font-bold text-slate-200">{t('stats_conversion')}</h3>
-                      <p className="text-sm text-slate-400 mt-2">{t('stats_conversion_desc')}</p>
-                    </div>
-                    {/* Panel 3 */}
-                    <div className="p-8 flex flex-col items-center text-center group hover:bg-white/5 transition-colors">
-                      <div className="w-12 h-12 bg-neon-amber/10 rounded-lg flex items-center justify-center mb-4 text-neon-amber shadow-[0_0_15px_rgba(245,158,11,0.2)] group-hover:scale-110 transition-transform">
-                        <ShieldCheck className="w-6 h-6" />
-                      </div>
-                      <h3 className="text-lg font-bold text-slate-200">{t('stats_safe')}</h3>
-                      <p className="text-sm text-slate-400 mt-2">{t('stats_safe_desc')}</p>
-                    </div>
-                 </div>
-              </div>
-            </div>
-          </div>
+          {/* Proof of Value Slider */}
+          <FuturisticSlider />
         </div>
       </section>
 
